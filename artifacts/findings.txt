@@ -1,0 +1,15 @@
+FINDINGS REPORT
+
+Observation:
+- Multiple failed login attempts detected from single IP address (45.23.12.90)
+- Attempts occurred within a short time window
+- Successful login occurred after repeated failures
+
+Analysis:
+This pattern is consistent with a brute-force attack attempt.
+
+Risk Level:
+Medium – potential unauthorized access attempt
+
+Conclusion:
+Activity is suspicious and should be monitored or blocked.
