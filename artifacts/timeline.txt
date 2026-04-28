@@ -1,0 +1,11 @@
+INVESTIGATION TIMELINE
+
+10:01:12 - First failed login detected
+10:01:15 - Second failed login detected
+10:01:18 - Third failed login detected
+10:02:01 - Continued failed attempts
+10:03:45 - Successful login observed
+10:05:00 - Investigation completed
+
+Summary:
+Rapid sequence of failed login attempts followed by successful access indicates possible brute-force attack behavior.
