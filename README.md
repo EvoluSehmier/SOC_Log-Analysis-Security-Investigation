@@ -1,32 +1,28 @@
-# Log Analysis Security Investigation (SOC Project)
+# Log Analysis Security Investigation
 
-## Overview
-This project analyzes system logs to identify suspicious activity.
+## 📌 Executive Summary
+System logs revealed repeated failed login attempts indicating a possible brute-force attack.
 
-## Objective
-Detect potential security threats through log review.
+## 🎯 Objective
+Detect suspicious login behavior and assess risk.
 
-## Tools Used
-- Log files
-- Basic filtering techniques
+## 🔍 Investigation
 
-## Process
+### Observations
+- Multiple failed login attempts
+- Attempts from same IP
+- Activity during unusual hours
 
-### 1. Log Review
-- Examined login attempts
-- Identified unusual activity
+## 🚨 Indicators
+- IP: 45.23.12.90
+- Repeated login failures
 
-### 2. Pattern Detection
-- Multiple failed logins
-- Unusual access times
+## ⚖️ Risk Level
+Medium → Potential account compromise
 
-## Findings
-- Repeated failed login attempts
-- Possible brute force attack
+## ✅ Recommendations
+- Enable account lockout
+- Monitor IP activity
 
-## Conclusion
-Logs indicate suspicious behavior that requires further monitoring.
-
-## Recommendations
-- Implement account lockout policies
-- Monitor login attempts
+## 🧠 MITRE ATT&CK
+- T1110 – Brute Force
