@@ -1,0 +1,4 @@
+Sample Query (Log Analysis):
+
+failed_login_attempts > 5
+source_ip = 45.23.12.90
